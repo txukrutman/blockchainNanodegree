@@ -54,3 +54,14 @@ Not used
 All tests passed OK
 
 ![Test Executions](images/Test_executions.png)
+
+# DAPP Client Notes
+
+To be able to play with roles, I added a role management part. With the Account used to deploy the contract you are able to add another addresses to specific roles.
+![Role Manager](images/role_manager.png)
+
+This way, if you change you account to a one with a specific role, the unabailable buttons will change to red color as seen in the following image. The buttons are enabled to be clicked, but metamask will throw an error if you don't have the needed role for that action.
+
+![Buttons for Distributor Role](images/role_distributor.png "Screenshot of button coloring for a user with distributor role.")
+
+Distributor, Retailer and Consumer ID textboxes are not editable. They will be updated once one user with those roles does an interaction or by fetching info clicking on buttons.
