@@ -48,3 +48,9 @@ Not used
 ## Class Diagram
 
 ![Class Diagram](images/Class_diagram.jpg)
+
+# Test Executions
+
+All tests passed OK
+
+![Test Executions](images/Test_executions.png)
