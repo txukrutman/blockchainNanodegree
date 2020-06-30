@@ -20,6 +20,12 @@ input {
     margin: 10px 0;
 }
 
+/* input.payingPrice {
+  width: 10px;
+  padding: 12px 0px;
+  margin: 0px 0;
+} */
+
 button {
     cursor: pointer;
     background-color: #4CAF50;
@@ -48,7 +54,7 @@ button {
 .form-group {
   background-color:#0097A7;
   color:black;
-  width:50%;
+  width:70%;
   padding:30px;
   border-radius: 4px;
   background-color: #f8f8f8;

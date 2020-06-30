@@ -53,10 +53,10 @@
             <br>
             <input type="text" id="originFarmLongitude" name="originFarmLongitude" value="144.341490"><br>
             <br>
-            <button class="btn-harvest" id="button" type="button" data-id="1">Harvest</button>
-            <button class="btn-process" id="button" type="button" data-id="2">Process</button>
-            <button class="btn-pack" id="button" type="button" data-id="3">Pack</button>
-            <button class="btn-forsale" id="button" type="button" data-id="4">ForSale</button>
+            <button class="btn-harvest" id="buttonHarvest" type="button" data-id="1">Harvest</button>
+            <button class="btn-process" id="buttonProcess" type="button" data-id="2">Process</button>
+            <button class="btn-pack" id="buttonPack" type="button" data-id="3">Pack</button>
+            <button class="btn-forsale" id="buttonSale" type="button" data-id="4">ForSale</button>
         </div>
         <div class=form-break></div>
         <h2>Product Details</h2>
@@ -66,25 +66,37 @@
             <input type="text" id="productNotes" name="productNotes" value="Best beans for Espresso" size="60"><br>
             Product Price
             <br>
-            <input type="number" id="productPrice" name="productPrice" value=1>ETH<br>
+            <input type="number" id="productPrice" name="productPrice" value=1> ETH<br>
             Distributor ID
             <br>
             <input type="text" id="distributorID" name="distributorID" value="0xf1b1bcd24dad92303dd9fe78be639f7bcf9c238d"
-                size="50">
-            <br>
+                size="50" readonly><br>
             Retailer ID
             <br>
             <input type="text" id="retailerID" name="retailerID" value="0x0fb2bfefd526966c87efa19f6693d50971763fc2"
-                size="50"><br>
-            Distributor ID
+                size="50" readonly><br>
+            Consumer ID
             <br>
             <input type="text" id="consumerID" name="consumerID" value="0x5d777e9127b28fb119e81a6304278a0a21bef1c4"
-                size="50"><br>
+                size="50" readonly><br>
             <br>
-            <button class="btn-buy" id="button" type="button" data-id="5">Buy</button>
-            <button class="btn-ship" id="button" type="button" data-id="6">Ship</button>
-            <button class="btn-receive" id="button" type="button" data-id="7">Receive</button>
-            <button class="btn-purchase" id="button" type="button" data-id="8">Purchase</button>
+            <button class="btn-buy" id="buttonBuy" type="button" data-id="5">Buy</button>
+            <button class="btn-ship" id="buttonShip" type="button" data-id="6">Ship</button>
+            <button class="btn-receive" id="buttonReceive" type="button" data-id="7">Receive</button>
+            <button class="btn-purchase" id="buttonPurchase" type="button" data-id="8">Purchase</button>
+        </div>
+        <div class=form-break></div>
+        <h2>Add Accounts With Roles</h2>
+        <div class="form-group">
+            Account ID
+            <br>
+            <input type="text" id="accountID" name="accountID" value="0x018C2daBef4904ECbd7118350A0c54DbeaE3549A"
+                size="50">
+            <br>
+            <button class="btn-addFarmer" id="buttonFarmer" type="button" data-id="11">Add Farmer</button>
+            <button class="btn-addDistributor" id="buttonDistributor" type="button" data-id="12">Add distributor</button>
+            <button class="btn-addRetailer" id="buttonRetailer" type="button" data-id="13">Add Retailer</button>
+            <button class="btn-addConsumer" id="buttonConsumer" type="button" data-id="14">Add Consumer</button>
         </div>
         <div class=form-break></div>
         <hr>
