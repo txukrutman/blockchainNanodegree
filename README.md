@@ -1,7 +1,7 @@
 # Udacity Blockchain Developer Nanodegree Projects
-A nanodegree to learn the fundamentals of the blockchain platform. Create private blockchain, and secure a digital asset using blockchain identity. Explore the Ethereum platform, and use Solidity and smart contracts to develop your own decentralized app.
+The [Blockchain Developer Nanodegree](https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309) is a nanodegree to learn the fundamentals of the blockchain platform where the student creates a private blockchain and secures a digital asset using blockchain identity. It also explores the Ethereum platform, and uses Solidity and smart contracts to develop your own decentralized app.
 
-Theese are the projects developed during the course
+Theese are the projects I developed during the course:
 
 ## CryptoStar Dapp on Ethereum
 A decentralized app (Dapp) that allows you to create, sell, and transfer ownership of unique star token (CryptoStar) on the Ethereum blockchain using smart contracts and the non-fungible (ERC721) token standard.
